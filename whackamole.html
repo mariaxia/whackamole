@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Whack-a-Mole</title>
+  </head>
+  
+  <style>
+  body {
+  	padding: 100px;
+  } 
+  h2 {
+  	font-size: 64pt;
+  }
+  #screen, #overlay{
+  	position: absolute; 
+  	left: 110; 
+  	top: 250; 
+  	cursor: pointer;
+  }
+  .panel{
+  	position: absolute;
+  	left: 550px;
+  	top: 300px;
+  	height: 100px;
+  	width: 100px;
+  }
+  </style>
+  
+  <body>
+  	<div class="header">
+    <h1>Whack-a-mole</h1>
+    <p>Go get 'em.</p></br>
+	</div>
+	
+	<div class="panel">
+	  <h2 id="counter">0</h2>
+	</div>
+	
+    <canvas id="screen" width="400" height="400" style="z-index: 0;"></canvas>
+    <canvas id="overlay" width="400" height="400" style="z-index: 1;"></canvas>
+
+	<script src="whack.js"></script>
+
+  </body>
+</html>
