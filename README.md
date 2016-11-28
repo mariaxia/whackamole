@@ -2,4 +2,4 @@
 
 My first web game.
 
-Directions: "whack" the "moles."
+Directions: "Whack" the "moles."
